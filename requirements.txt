@@ -1,4 +1,4 @@
-selenium
+selenium=4.0.0.b4
 pandas
 beautifulsoup4
 requests
