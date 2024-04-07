@@ -26,7 +26,7 @@ couple_desc = []
 
 # Going TO NEXT PAGE ================
 # loop_time = how many pages you want to scrape
-loop_time = 1
+loop_time = 10
 while loop_time:
 
     soup = BeautifulSoup(driver.page_source,"html.parser")
