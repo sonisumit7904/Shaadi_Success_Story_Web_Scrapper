@@ -25,8 +25,8 @@ pip install -r requirements.txt
 
 ## Usage
 
-1. Open the Python script (e.g., `scraper.py`) in a text editor.
-2. Modify the script as needed, such as specifying the target URLs or adjusting the scraping logic.
+1. Open the Python script `scraper.py` in a text editor.
+2. Modify the script as needed, such as Changing the `Chrome Driver Path`
 3. Save the changes to the script.
 4. Run the script from the command line:
 ```

@@ -9,7 +9,8 @@ import html
 
 import pandas as pd
 
-path = "D:/chromedriver.exe"
+# Chrome Driver Path 
+path = "C:/Program Files/Google/Chrome/Application/chromedriver.exe"
 s = Service(path)
 
 driver = webdriver.Chrome(service=s)
@@ -25,7 +26,7 @@ couple_desc = []
 
 # Going TO NEXT PAGE ================
 # loop_time = how many pages you want to scrape
-loop_time = 10
+loop_time = 1
 while loop_time:
 
     soup = BeautifulSoup(driver.page_source,"html.parser")
